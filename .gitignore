@@ -1,0 +1,23 @@
+# Dependencies
+/node_modules/
+
+# Secrets and local environment overrides
+.env
+.env.*
+!.env.example
+
+# Runtime state (contains Discord guild, channel, and user IDs)
+/data/*.json
+/data/*.json.*
+
+# Test and diagnostic output
+/coverage/
+*.log
+npm-debug.log*
+
+# Editor and operating-system files
+.DS_Store
+Thumbs.db
+.idea/
+.vscode/
+*.swp

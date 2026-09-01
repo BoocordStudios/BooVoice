@@ -1,0 +1,36 @@
+{
+  "name": "boovoice",
+  "version": "1.0.0",
+  "description": "A lightweight Discord bot for temporary, user-owned voice channels.",
+  "private": true,
+  "main": "index.js",
+  "type": "commonjs",
+  "scripts": {
+    "start": "node index.js",
+    "check": "node --check index.js && node --check src/template.js && node --check test/template.test.js",
+    "test": "node --test"
+  },
+  "engines": {
+    "node": ">=22"
+  },
+  "keywords": [
+    "discord",
+    "discord-bot",
+    "temporary-voice-channels",
+    "voice-channels"
+  ],
+  "author": "Boocord Studios",
+  "license": "ISC",
+  "homepage": "https://github.com/BoocordStudios/BooVoice#readme",
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/BoocordStudios/BooVoice.git"
+  },
+  "bugs": {
+    "url": "https://github.com/BoocordStudios/BooVoice/issues"
+  },
+  "dependencies": {
+    "discord.js": "^14.27.0",
+    "dotenv": "^17.4.2"
+  }
+}
